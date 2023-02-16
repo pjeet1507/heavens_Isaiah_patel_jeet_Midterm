@@ -2,7 +2,7 @@
 	display: none;
 }
 .body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: swapHelvetica, Arial, sans-serif;
 	text-decoration: none;
  }
 
@@ -20,14 +20,12 @@
 }
 
 #header-cot {
-	background-color: gray;
-	/* padding-top: 10px;
-	padding-bottom: 10px; */
+	background-color: black;
 }
 
 .main-flex {
 	display: flex;
-	height: 50px;
+	height: 100px;
 	padding: 20px;
 	justify-content: center;
 	align-items: center;
@@ -35,14 +33,14 @@
 }
 
 img{
-	width: 175px;
+	width: 180px;
 }
 
 a{
-	font-size: 30px;
+	color: white;
+	font-size: 35px;
 	text-decoration: none;
 }
-
 
 
 
