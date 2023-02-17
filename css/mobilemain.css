@@ -27,6 +27,7 @@
     height: 55px;
     width: 375px;
     background-color: rgb(30, 30, 40);
+	padding-bottom: 20px;
 }
 
 .main-logo{
@@ -90,75 +91,52 @@
 
 }
 
+/* contact form */
 
-/* ------------------------- */
+body { background:rgb(30,30,40); }
+form { max-width:300px; margin:0px auto; }
 
-#productpage{
-	background-image: url("/img/mobileproductimg.png");
-	height: 720px;
-	width: 375px;
-}
 
-.producttext{
-	grid-column: 1/5;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-    padding-top: 120px;
-}
-
-.videotext{
-	grid-column:1/5;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#videopage .videotext a{
-	font-family:Arial, Helvetica, sans-serif;
-	padding: 15px;
-	color: white;
-	font-size: 15px;
-	border-radius: 10px;
-}
-
-#videopage{
-	background-color: rgb(30, 30, 40);
-	height: 550px;
-	width: 375px;
-}
-
-.video-flex{
-	grid-column: 1/5;
-	display: flex;
-	height: auto;
-	width: auto;
-	justify-content: center;
-	align-items: center;
-}
-
-.video-place-holder{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 360px;
-	width: 375px;
-	background-color: green;
+.feedback-input {
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	font-size: 18px;
 	border-radius: 5px;
-}
+	background-color: transparent;
+	border:2px solid green;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width: 300px;
+	box-sizing: border-box;
+	outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #39ff14; }
+  
+  textarea {
+	height: 150px;
+	line-height: 150%;
+	resize:vertical;
+  }
+  
+  [type="submit"] {
+	width: 300px;
+	background:green;
+	border-radius:5px;
+	border:0;
+	cursor:pointer;
+	color:white;
+	font-size:24px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom: 10px;
+	transition: all 0.3s;
+  }
+  [type="submit"]:hover { background:#2dcc10; }
 
-.video-place-holder a{
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight: bold;
-	padding: 15px;
-	color: wheat;
-	font-size: 25px;
-	border-radius: 10px;
-}
-
-
-
-/* ______footer______ */
+  
+  /* ______footer______ */
 
 .footer-nav {
 	background-color: black;
@@ -179,6 +157,7 @@
   }
 
   .footer-list a{
+	font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: none;
   }
@@ -200,6 +179,7 @@
   }
 
   .copy a{
+	font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     color: white;
@@ -235,6 +215,3 @@
 	width: 180px;
 	box-sizing: border-box;
   }
-
-
-
