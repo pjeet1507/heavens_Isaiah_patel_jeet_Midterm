@@ -2,7 +2,7 @@
 	display: none;
 }
 .body {
-    font-family: swapHelvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 	text-decoration: none;
  }
 
@@ -13,10 +13,8 @@
 
 .grid-main {
 	display: grid;
-	grid-template-columns: repeat(12, 87px);
-	grid-column-gap: 11px;
-	padding-left: 17px;
-	padding-right: 17px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 16px;
 }
 
 #header-cot {
@@ -25,7 +23,7 @@
 
 .main-flex {
 	display: flex;
-	height: 100px;
+	height: 50px;
 	padding: 20px;
 	justify-content: center;
 	align-items: center;
@@ -36,11 +34,129 @@ img{
 	width: 180px;
 }
 
-a{
+li a{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
 	color: white;
-	font-size: 35px;
+	font-size: 22px;
 	text-decoration: none;
 }
+
+
+/* contact form */
+
+body { background:rgb(30,30,40); }
+form { max-width:1000px; margin:50px auto; }
+
+
+.feedback-input {
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	font-size: 18px;
+	border-radius: 5px;
+	background-color: transparent;
+	border:2px solid green;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width: 1000px;
+	box-sizing: border-box;
+	outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #39ff14; }
+  
+  textarea {
+	height: 150px;
+	line-height: 150%;
+	resize:vertical;
+  }
+  
+  [type="submit"] {
+	width: 100%;
+	background:green;
+	border-radius:5px;
+	border:0;
+	cursor:pointer;
+	color:white;
+	font-size:24px;
+	padding-top:10px;
+	padding-bottom:10px;
+	transition: all 0.3s;
+  }
+  [type="submit"]:hover { background:#2dcc10; }
+
+  /* footer */ 
+  
+  .footer-nav {
+	background-color: black;
+	height: 400px;
+	width: 1200px;
+	padding-top: 20px;
+  }
+
+  .footer-logo {
+	grid-column: 2/4;
+  }
+
+  .footer-list {
+	grid-column: 2/4;
+	padding: 20px;
+	line-height: 50px;
+	margin-top: -250px;
+	text-align: center;
+  }
+
+  hr {
+	display: block;
+	border-width: 1px;
+	margin-top: -100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+  }
+
+	p {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 18px;
+  }
+
+  .socials img {
+	width: 48px;
+	padding-right: 10px;
+  }
+
+  .socials {
+	padding-top: 170px;
+	grid-column: 4/6;
+	grid-row: 1/2;
+  }
+
+  .email {
+	grid-column: 9/12;
+	grid-row: 1/2;
+  }
+
+  /* email signup */
+
+  .email-signup {
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	font-size: 18px;
+	border-radius: 5px;
+	background-color: transparent;
+	border:2px solid green;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width: 288px;
+	box-sizing: border-box;
+	outline:0;
+  }
+
 
 
 
