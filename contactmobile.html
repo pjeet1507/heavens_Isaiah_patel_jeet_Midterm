@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobilemain.css">
     <title>Swerve - Contact</title>
 </head>
-
 <body>
     <div class="container">
-        <h1 class="hidden">MIDTERM-FIP</h1>
-        <header id="header-cot">
-            <nav>
-                <h2 class="hidden">upper navigation</h2>
-                <ul class="main-flex">
-                    <li><a href="">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#"><img src="./assets/swerve.svg" alt="Swerve Logo"></a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <h1 class="hidden">MIDTERM-FIP-MOBILE</h1>
+        <header>
+        <nav>
+            <h2 class="hidden">upper navigation</h2>
+            <div class="grid-main" id="main-nav">
+                <div class="ham-menu">
+                    <img src=".//img/menu.svg" alt="Serve Logo">
+                </div>
+                <div class="main-logo">
+                    <img src=".//assets/swerve.svg" alt="">
+                </div>
+            </div>
+        </nav>
         </header>
 
         <form>
@@ -34,41 +33,42 @@
             <input type="submit" value="SUBMIT" />
         </form>
 
-
         <nav class="footer-nav">
             <h2 class="hidden">footer navigation</h2>
             <div class="grid-main">
                 <div class="footer-logo">
                     <img src="assets/swerve.svg" alt="Swerve Logo">
                 </div>
-
+      
                 <ul class="footer-list">
-                    <li><a href="">Home</a></li>
+                    <li><a href="mobileindex.html">Home</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contactmobile.html">Contact</a></li>
                 </ul>
                 <div class="socials">
-                    <a href="https://twitter.com/"><img src="img/twitter.svg" alt="twitter logo"></a>
-                    <img src="img/ig.svg" alt="instagram logo">
+                    <img src="img/twitter.svg" alt="twitter logo">
+                    <img src="img/ig.svg" alt="instagrsam logo">
                     <img src="img/yt.svg" alt="Youtube logo">
                 </div>
                 <div class="email">
                     <p>Sign up for our newsletter to get updates on new products and events.</p>
-
+      
                     <div>
                         <form>
                             <input type="email" name="email" class="email-signup" placeholder="Email" required/>
-                            <input type="submit" value="SIGN UP"/>
+                            <input type="submit" value="SIGN UP" class="email-signup"/>
                         </form>
                     </div>
                 </div>
-                </div>
+            </div>
+            <hr>
+            <div class="copy">
+                <a href="#">© 2023 Swerve</a>
+            </div>
         </nav>
-        <hr>
-        <p>© 2023 Swerve</p>
-    </div>
-    <script src="js/main.js"></script>
-</body>
+        </div>
 
+        <script src="js/main.js"></script>
+</body>
 </html>
